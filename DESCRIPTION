@@ -1,0 +1,13 @@
+Package: fspackage
+Type: Package
+Title: Data quality checks on FSP
+Version: 0.1.0
+Author: James Ades
+Maintainer: The package maintainer <james.v.ades@gmail.com>
+Description: Various functions that ensure data quality for different datasets
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr
+    lubridate
