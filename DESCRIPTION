@@ -11,3 +11,5 @@ LazyData: true
 Imports: 
     dplyr
     lubridate
+URL: https://github.com/Jades1/fspackage
+BugReports: https://github.com/Jades1/fspackage/issues
