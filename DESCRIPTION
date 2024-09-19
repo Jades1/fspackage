@@ -9,7 +9,7 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    dplyr
+    dplyr,
     lubridate
 URL: https://github.com/Jades1/fspackage
 BugReports: https://github.com/Jades1/fspackage/issues
