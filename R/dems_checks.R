@@ -1,4 +1,8 @@
-
+#' Check whether one variable equals summation of other variables
+#'
+#' @param dems_df Demographics Data Set
+#' @returns A data set
+#'
 #' @export
 dems_check = function(dems_df){
 

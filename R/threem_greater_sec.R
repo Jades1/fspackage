@@ -1,5 +1,8 @@
-#Imports:
-# dplyr
+#' Checks whether variable from one data set equals values from another data set and returns NA for vals which do not meet condition
+#'
+#' @param df_1 Data set 1
+#' @param df_2 Data set 2
+#' @returns Data set
 
 #' @export
 threem_greater_sec = function(df_1, df_2){

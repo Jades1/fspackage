@@ -13,3 +13,4 @@ Imports:
     lubridate
 URL: https://github.com/Jades1/fspackage
 BugReports: https://github.com/Jades1/fspackage/issues
+RoxygenNote: 7.3.1

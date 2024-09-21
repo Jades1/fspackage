@@ -1,13 +1,10 @@
-#' check that dates follow ymd format
-#'
-#' This function tests a vector from a df to make sure that that vector has date values arranged as ymd
+#' Checks vector/s from a data set to make sure that that vector/s has date values arranged as ymd
 #'
 #' @param df_date  vector to be tested to the input file
 #' @param date_order date order to be tested.
 #' @return tested vector
+
 #' @export
-
-
 #get only date columns from any df
 only_date_cols = function(df_date){
   dates_only <- unlist(lapply(df_date, lubridate::is.Date), use.names = FALSE)
